@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="book_store.xsl" ?>
+
+<bookstore
+xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+xsi:noNamespaceSchemaLocation="book_store.xsd">
+
+<book code="111-11">
+<title lang="en">Everyday Italian</title>
+<author>Giada De Laurentiis</author>
+<year>2005</year>
+<category>Cooking</category>
+<description>Everyday Italian is true to its title: the fresh, simple recipes are incredibly quick and accessible, and also utterly mouth-watering—perfect for everyday cooking.</description>
+<quantity>4</quantity>
+<unit_price>30.00</unit_price>
+</book>
+
+<book code="111-12">
+<title lang="en">Harry Potter</title>
+<author>J K. Rowling</author>
+<year>2005</year>
+<category>Children</category>
+<description>The novel chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.</description>
+<quantity>4</quantity>
+<unit_price>29.99</unit_price>
+</book>
+
+<book code="111-13">
+<title lang="en">XQuery Kick Start</title>
+<author>James McGovern</author>
+<year>2003</year>
+<category>Web</category>
+<description>XQuery Kick Start delivers a concise introduction to the XQuery standard, and useful implementation advice for developers needing to put it into practice.</description>
+<quantity>5</quantity>
+<unit_price>49.99</unit_price>
+</book>
+
+<book code="111-14">
+<title lang="en">Learning XML</title>
+<author>Erik T. Ray</author>
+<year>2003</year>
+<category>Web</category>
+<description>Overview of XML and its common uses and introduction of main concepts with explanations.</description>
+<quantity>5</quantity>
+<unit_price>39.95</unit_price>
+</book>
+
+<book code="111-15">
+<title lang="en">Love in the time of cholera</title>
+<author>Gabriel Gracia Marquez</author>
+<year>1985</year>
+<category>Novel</category>
+<description>In their youth, Florentino Ariza and Fermina Daza fall passionately in love. When Fermina eventually chooses to marry a wealthy, well-born doctor, Florentino is heartbroken, but he is a romantic.</description>
+<quantity>7</quantity>
+<unit_price>49.99</unit_price>
+</book>
+
+<book code="111-30">
+<title lang="en">Pride and Prejudice</title>
+<author>Jane Austen</author> 
+<year>1813</year>
+<category>Romance</category>
+<description>The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness.</description>
+<quantity>1</quantity>
+<unit_price>69.99</unit_price>    
+</book>
+
+<book code="111-16">
+<title lang="en">To Kill a Mockingbird</title>
+<author>Harper Lee</author>
+<year>1960</year>
+<category>Gothic novel</category>
+<description>To Kill a Mockingbird is Harper Lee’s 1961 Pulitzer Prize-winning novel about a child’s view of race and justice in the Depression-era South.</description>
+<quantity>10</quantity>
+<unit_price>39.99</unit_price>
+</book>
+
+<book code="111-17">
+<title lang="en">Little Women</title>
+<author>Louisa May Alcott</author>
+<year>1868</year>
+<category>Novel</category>
+<description>The book chronicles the lives and affairs of four sisters and how they relate to life in Civil-War-torn New England.</description>
+<quantity>2</quantity>
+<unit_price>45.99</unit_price>
+</book>
+
+<book code="111-18">
+<title lang="en">Jane Eyre</title>
+<author>Charlotte Bronte</author>
+<year>1847</year>
+<category>Victorian novel</category>
+<description>An Autobiography, widely considered a classic, it gave new truthfulness to the Victorian novel with its realistic portrayal of the inner life of a woman, noting her struggles with her natural desires and social condition.</description>
+<quantity>6</quantity>
+<unit_price>38.99</unit_price>
+</book>
+
+<book code="111-19">
+<title lang="en">Gone with the Wind</title>
+<author>Margaret Mitchell</author>
+<year>1936</year>
+<category>Melodrama</category>
+<description>The story is set in Clayton County and Atlanta, both in Georgia, during the American Civil War and Reconstruction Era. It depicts the struggles of young Scarlett O'Hara, the spoiled daughter of a well-to-do plantation owner, who must use every means at her disposal to claw her way out of poverty following Sherman's destructive "March to the Sea".</description>
+<quantity>15</quantity>
+<unit_price>18.99</unit_price>
+</book>
+
+<book code="111-20">
+<title lang="en">Charlotte's Web</title>
+<author>E.B. White</author>
+<year>1952</year>
+<category>Fiction</category>
+<description> The widely read tale takes place on a farm and concerns a pig named Wilbur and his devoted friend Charlotte, the spider who manages to save his life by writing about him in her web.</description>
+<quantity>4</quantity>
+<unit_price>24.49</unit_price>
+</book>
+
+<book code="111-21">
+<title lang="en">Romeo and Juliet</title>
+<author>William Shakespeare</author>
+<year>1595</year>
+<category>Tragedy</category>
+<description>Romeo and Juliet is a tragedy written by William Shakespeare early in his career about two young star-crossed lovers whose deaths ultimately reconcile their feuding families.</description>
+<quantity>16</quantity>
+<unit_price>9.99</unit_price>
+</book>
+
+<book code="111-22">
+<title lang="en">Alice in Wonderland</title>
+<author>Lewis Carroll</author>
+<year>1865</year>
+<category>Fantasy</category>
+<description>Tells of a young girl named Alice, who falls through a rabbit hole into a subterranean fantasy world populated by peculiar, anthropomorphic creatures.</description>
+<quantity>7</quantity>
+<unit_price>26.49</unit_price>
+</book>
+
+<book code="111-23">
+<title lang="en">The Shining</title>
+<author>Stephen King</author>
+<year>1977</year>
+<category>Horror</category>
+<description>Jack Torrance's new job at the Overlook Hotel is the perfect chance for a fresh start. As the off-season caretaker at the atmospheric old hotel, he'll have plenty of time to spend reconnecting with his family and working on his writing. But as the harsh winter weather sets in, the idyllic location feels ever more remote and more sinister.</description>
+<quantity>7</quantity>
+<unit_price>18.99</unit_price>
+</book>
+
+<book code="111-24">
+<title lang="en">1984</title>
+<author>George Orwell</author>
+<year>1949</year>
+<category>Sci-Fi</category>
+<description>Nineteen Eighty-Four centres on the consequences of totalitarianism, mass surveillance, and repressive regimentation of persons and behaviours within society.</description>
+<quantity>3</quantity>
+<unit_price>30.99</unit_price>
+</book>
+
+<book code="111-25">
+<title lang="en">Brawe New World</title>
+<author>Aldous Huxley</author>
+<year>1932</year>
+<category>Sci-Fi</category>
+<description>Largely set in a futuristic World State, whose citizens are environmentally engineered into an intelligence-based social hierarchy, the novel anticipates huge scientific advancements in reproductive technology, sleep-learning, psychological manipulation and classical conditioning that are combined to make a dystopian society which is challenged by only a single individual: the story's protagonist.</description>
+<quantity>12</quantity>
+<unit_price>7.99</unit_price>
+</book>
+
+<book code="111-26">
+<title lang="en">Dune</title>
+<author>Frank Herbert</author>
+<year>1965</year>
+<category>Sci-Fi</category>
+<description>Dune is set in the distant future amidst a feudal interstellar society in which various noble houses control planetary fiefs.</description>
+<quantity>9</quantity>
+<unit_price>14.99</unit_price>
+</book>
+
+<book code="111-27">
+<title lang="en">Moby-Dick</title>
+<author>Herman Melville</author>
+<year>1851</year>
+<category>Novel</category>
+<description>The book is the sailor Ishmael's narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the giant white sperm whale that on the ship's previous voyage bit off Ahab's leg at the knee.</description>
+<quantity>7</quantity>
+<unit_price>8.89</unit_price>
+</book>
+
+<book code="111-28">
+<title lang="en">The Cuckoo's Calling</title>
+<author>Robert Galbraith</author>
+<year>2013</year>
+<category>Criminal</category>
+<description>Disabled Afghan War veteran and struggling private investigator Cormoran Strike is approached by John Bristow, the adoptive brother of Strike's childhood schoolmate Charlie.</description>
+<quantity>18</quantity>
+<unit_price>10.49</unit_price>
+</book>
+
+<book code="111-29">
+<title lang="en">The Master and Margarita</title>
+<author>Mikhail Bulgakov</author>
+<year>1966</year>
+<category>Satire</category>
+<description>One hot spring, the devil arrives in Moscow, accompanied by a retinue that includes a beautiful naked witch and an immense talking black cat with a fondness for chess and vodka.</description>
+<quantity>23</quantity>
+<unit_price>13.49</unit_price>
+</book>
+
+</bookstore>

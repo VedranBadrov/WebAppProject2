@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Products</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h2>Our Products</h2>
+</header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mission.html">Our Mission</a></li>
+	  <li><a class="active" href="products.html">Products</a></li>
+      <li><a  href="search.html">Search</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+<section>
+    <article>
+    <img src="IMG/hand.jpg">
+    </article>
+<article>
+<button type="button" onclick="loadXMLDoc()">View The BookStore</button>
+<br><br>
+
+<table id="demo"></table>
+
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "book_store.xml", true);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Name</th><th>Author</th><th>Year</th><th>Category</th><th>Description</th><th>Quantity</th><th>Unit Price</th></tr>";
+  var x = xmlDoc.getElementsByTagName("book");
+  for (i = 0; i <x.length; i++) {
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("author")[0].childNodes[0].nodeValue +
+   "</td><td>" +
+    x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("category")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("description")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("quantity")[0].childNodes[0].nodeValue +
+   "</td><td>" +
+    x[i].getElementsByTagName("unit_price")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+  </article>
+
+</section>
+
+<footer>
+  <p>Developed By Gareth Shaw, Vedran Badrov and Nabil Omar @ NCI  </p>
+</footer>
+</body>
+</html>
